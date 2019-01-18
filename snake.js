@@ -1,5 +1,5 @@
-window.onload = function() {
-  var cvs = document.getElementById("canvas");
+function main(canvas) {
+  var cvs = canvas;
   var ctx = cvs.getContext("2d");
 
   var cvsW = cvs.width;
@@ -121,20 +121,4 @@ window.onload = function() {
   }
 
 setInterval(draw, 60);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
